@@ -1,0 +1,5 @@
+C:\Users\szanjare\Downloads\SimpleVidyoConnector\VidyoClientAndroid\bin\Debug\VidyoClientAndroid.dll
+C:\Users\szanjare\Downloads\SimpleVidyoConnector\VidyoClientAndroid\bin\Debug\VidyoClientAndroid.pdb
+C:\Users\szanjare\Downloads\SimpleVidyoConnector\VidyoClientAndroid\obj\Debug\VidyoClientAndroid.csprojResolveAssemblyReference.cache
+C:\Users\szanjare\Downloads\SimpleVidyoConnector\VidyoClientAndroid\obj\Debug\VidyoClientAndroid.dll
+C:\Users\szanjare\Downloads\SimpleVidyoConnector\VidyoClientAndroid\obj\Debug\VidyoClientAndroid.pdb

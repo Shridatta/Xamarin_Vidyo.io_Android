@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <DefineConstants>$(DefineConstants);ANDROID_1;ANDROID_2;ANDROID_3;ANDROID_4;ANDROID_5;ANDROID_6;ANDROID_7;ANDROID_8;ANDROID_9;ANDROID_10;ANDROID_11;ANDROID_12;ANDROID_13;ANDROID_14;ANDROID_15;ANDROID_16;ANDROID_17;ANDROID_18;ANDROID_19;ANDROID_20;ANDROID_21;ANDROID_22;ANDROID_23</DefineConstants>
+  </PropertyGroup>
+  <!-- Classes -->
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Vidyo.LmiDeviceManager.LmiLocationManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Vidyo.LmiDeviceManager.LmiScreenManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Vidyo.LmiDeviceManager.LmiScreenManagerCupcakeListener.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Vidyo.LmiDeviceManager.LmiScreenManagerJellybeanListener.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Vidyo.LmiDeviceManager.LmiVideoCapturer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Vidyo.LmiDeviceManager.LmiVideoCapturerCapability.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Vidyo.LmiDeviceManager.LmiVideoCapturerManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Vidyo.LmiDeviceManager.LmiVideoFrame.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Vidyo.LmiUi.LmiWindow.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Vidyo.VidyoClient.BuildConfig.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Vidyo.VidyoClient.CalendarManager.VidyoCalendarCreateResult.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Vidyo.VidyoClient.CalendarManager.VidyoCalendarManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Vidyo.VidyoClient.CalendarManager.VidyoCalendarManagerFeedback.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Vidyo.VidyoClient.CalendarManager.VidyoCalendarServiceStatus.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Vidyo.VidyoClient.CalendarManager.VidyoFormField.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Vidyo.VidyoClient.CalendarManager.VidyoFormFieldOption.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Vidyo.VidyoClient.CalendarManager.VidyoFormFieldTextWrapMode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Vidyo.VidyoClient.CalendarManager.VidyoFormFieldType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Vidyo.VidyoClient.CalendarSchedule.VidyoCalendar.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Vidyo.VidyoClient.CalendarSchedule.VidyoCalendarFeedback.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Vidyo.VidyoClient.CalendarSchedule.VidyoCalendarManagerDefaultServices.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Vidyo.VidyoClient.CalendarSchedule.VidyoCalendarServiceCode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Vidyo.VidyoClient.CalendarSchedule.VidyoCalendarState.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Vidyo.VidyoClient.CalendarSchedule.VidyoMeetingSearchResult.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Vidyo.VidyoClient.Connector.Connector.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Vidyo.VidyoClient.Connector.VidyoConnector.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Vidyo.VidyoClient.Connector.VidyoGateway.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Vidyo.VidyoClient.Device.VidyoDevice.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Vidyo.VidyoClient.Device.VidyoLocalCamera.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Vidyo.VidyoClient.Device.VidyoLocalMicrophone.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Vidyo.VidyoClient.Device.VidyoLocalMonitor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Vidyo.VidyoClient.Device.VidyoLocalRenderer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Vidyo.VidyoClient.Device.VidyoLocalSpeaker.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Vidyo.VidyoClient.Device.VidyoLocalWindowShare.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Vidyo.VidyoClient.Device.VidyoRemoteCamera.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Vidyo.VidyoClient.Device.VidyoRemoteMicrophone.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Vidyo.VidyoClient.Device.VidyoRemoteRenderer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Vidyo.VidyoClient.Device.VidyoRemoteSpeaker.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Vidyo.VidyoClient.Device.VidyoRemoteWindowShare.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Vidyo.VidyoClient.Device.VidyoVideoCapability.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Vidyo.VidyoClient.Device.VidyoVirtualDeviceManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Vidyo.VidyoClient.Device.VidyoVirtualShareManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Vidyo.VidyoClient.Endpoint.Endpoint.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Vidyo.VidyoClient.Endpoint.VidyoCall.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Vidyo.VidyoClient.Endpoint.VidyoChatMessage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Vidyo.VidyoClient.Endpoint.VidyoContact.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Vidyo.VidyoClient.Endpoint.VidyoContactInfo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Vidyo.VidyoClient.Endpoint.VidyoEndpoint.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Vidyo.VidyoClient.Endpoint.VidyoLogRecord.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Vidyo.VidyoClient.Endpoint.VidyoMediaFormat.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Vidyo.VidyoClient.Endpoint.VidyoParticipant.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Vidyo.VidyoClient.Endpoint.VidyoRoom.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Vidyo.VidyoClient.Endpoint.VidyoRoomInfo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Vidyo.VidyoClient.Endpoint.VidyoUser.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Vidyo.VidyoClient.Meeting.VidyoMeeting.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Vidyo.VidyoClient.Meeting.VidyoMeetingActionResult.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Vidyo.VidyoClient.Meeting.VidyoMeetingType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Vidyo.VidyoClient.Stats.VidyoBandwidthSummaryStats.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Vidyo.VidyoClient.Stats.VidyoEndpointStats.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Vidyo.VidyoClient.Stats.VidyoLocalMicrophoneStats.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Vidyo.VidyoClient.Stats.VidyoLocalRendererStats.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Vidyo.VidyoClient.Stats.VidyoLocalRendererStreamStats.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Vidyo.VidyoClient.Stats.VidyoLocalSpeakerStats.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Vidyo.VidyoClient.Stats.VidyoLocalSpeakerStreamStats.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Vidyo.VidyoClient.Stats.VidyoLocalVideoSourceStats.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Vidyo.VidyoClient.Stats.VidyoMediaConnectionTransportInfo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Vidyo.VidyoClient.Stats.VidyoNetworkInterfaceStats.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Vidyo.VidyoClient.Stats.VidyoParticipantGenerationStats.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Vidyo.VidyoClient.Stats.VidyoParticipantStats.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Vidyo.VidyoClient.Stats.VidyoRateShaperStats.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Vidyo.VidyoClient.Stats.VidyoRemoteMicrophoneStats.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Vidyo.VidyoClient.Stats.VidyoRemoteRendererStreamStats.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Vidyo.VidyoClient.Stats.VidyoRemoteSpeakerStreamStats.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Vidyo.VidyoClient.Stats.VidyoRemoteVideoSourceStats.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Vidyo.VidyoClient.Stats.VidyoRoomStats.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Vidyo.VidyoClient.Stats.VidyoUserStats.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Vidyo.VidyoClient.VidyoMeetingAttendee.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Vidyo.VidyoClient.VidyoNetworkInterface.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Vidyo.VidyoClient.VidyoNetworkInterfaceInfo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Java.Interop.__TypeRegistrations.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\__NamespaceMapping__.cs" />
+  </ItemGroup>
+  <!-- Enums -->
+  <ItemGroup />
+</Project>
